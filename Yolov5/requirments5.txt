@@ -1,0 +1,9 @@
+//this for Yolov5
+//run this code to get clone yolov5 in google colab and this code have also requirements 
+!git clone https://github.com/ultralytics/yolov5  # clone
+%cd yolov5
+%pip install -qr requirements.txt comet_ml  # install
+
+import torch
+import utils
+display = utils.notebook_init()  # checks
